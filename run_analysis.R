@@ -101,8 +101,8 @@ test_data <- cbind(as.data.table(subject_test), y_test, X_test)
 # Merge train_data and test_data
 final_data_table <- rbind(train_data, test_data)
 
-# Create a vector id_label which will be the column names of 
-# the final merged dataset  
+# Create a vector id_label which will used to created column 
+# names in the final merged dataset  
 id_labels   <- c("subject", "Activity_ID", "Activity_Label")
 
 
