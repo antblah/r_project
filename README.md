@@ -1,2 +1,9 @@
-# r_data
-R project on tidy data
+## Files Included
+---
+## How to Run the Script
+
+---
+## About the Data
+
+--- 
+## CodeBook
