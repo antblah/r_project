@@ -2,6 +2,9 @@
 library(dplyr)
 library(data.table)
 
+# Save the original working directory
+original_wd <- getwd()
+
 
 # Create directory "data" if directory does not already exist
 if (!dir.exists("data")) {
@@ -10,7 +13,7 @@ if (!dir.exists("data")) {
 
 
 # Set "data" directory as current working directory
-setwd("data")
+setwd(file.path(original_wd, "data"))
 
 
 # Load url and download attached file
@@ -20,7 +23,8 @@ download.file(url, destfile)
 
 
 # Record date of download for reference
-dateDownloaded <- date()
+dateDownloaded <- Sys.Date()
+print(paste("Data downloaded on:", dateDownloaded))
 
 
 # Unzip downloaded dataset
@@ -28,7 +32,7 @@ Dataset_unzip <- unzip("Dataset.zip")
 
 
 # Set "UCI... " as the working directory
-setwd("UCI HAR Dataset")
+setwd(file.path(original_wd, "data", "UCI HAR Dataset"))
 list.files()
 
 
