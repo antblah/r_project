@@ -126,4 +126,4 @@ tidy_data   <- reshape2::dcast(melt_data, subject + Activity_Label ~ variable, f
 
 
 # Write out tidy_data to a new file
-write.table(tidy_data, file = "./tidy_data.txt")
+write.table(tidy_data, row.name=FALSE, file = "./tidy_data.txt")
