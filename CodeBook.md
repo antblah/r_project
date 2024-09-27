@@ -32,24 +32,24 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ---
 
-## Note on Data Transformations
+## Notes on Data Transformations
 
-1. The columns names in the `X_train` and `X_test` data sets are replaced with the column names from the Features data table. 
+1. The columns names in the `X_train` and `X_test` data sets are replaced with the column names from the Features data table; 
 
-2. `X_train` and `X_test` data sets are preprocessed for statistical analysis by creating a subset of the data is extracted and placed into the variable `extracted`.
+2. `X_train` and `X_test` data sets are preprocessed for statistical analysis by creating a subset of the data is extracted and placed into the variable `extracted`;
 
-3. The numerical categories in  `y_train` and `y_test` data indicating which activities were performed are replaced with the actual names of the activities.
+3. The numerical categories in  `y_train` and `y_test` data indicating which activities were performed are replaced with the actual names of the activities;
 
-4. The columns in `y_train` and `y_test` are appropriately renamed "Activity ID" and "Activity Label".
+4. The columns in `y_train` and `y_test` are appropriately renamed "Activity ID" and "Activity Label";
 
-5. `X_train` and `y_train` are merged along `subject_train` field into a variable named `train_data`.  
+5. `X_train` and `y_train` are merged along `subject_train` field into a variable named `train_data`;  
 
-6. `X_test` and `y_test` are merged along `subject_train` field into a variable named `test_data`.
+6. `X_test` and `y_test` are merged along `subject_train` field into a variable named `test_data`;
 
-7. `train_data` and `test_data` are merged into a `final_data_table`.
+7. `train_data` and `test_data` are merged into a `final_data_table`;
 
-8. `id_label` and `data_labels` are variables used to created the new column headers in the final data table.
+8. `id_label` and `data_labels` are variables used to created the new column headers in the final data table;
 
-9. `melt_data` reshapes the data merged data into a long format with `id_labels` as identifier columns, and the remaining `data_labels` variables placed in associated rows.
+9. `melt_data` reshapes the data merged data into a long format with `id_labels` as identifier columns, and the remaining `data_labels` variables placed in associated rows;
 
 10. `tidy_data` holds reshaped data set which calculates mean of each variable for each activity and subject.
