@@ -1,13 +1,12 @@
-## Tidy Data Project - Code Book
+# Tidy Data Project - Code Book
 
-This code book details information for the Tidy_Data project, data sources, as well as the variables and transformations used.
-
----
+This code book details information for the <b><u>"Tidy_Data Project"</u></b>, data sources, as well as the variables and transformations used.
 
 The raw dataset **Human Activity Recognition Using Smartphones Dataset** can be [downloaded here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
   
-This data was originally collected by:  
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. activityrecognition@smartlab.ws www.smartlab.ws
+This data was originally collected by:  <i>Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto</i>. 
+
+activityrecognition@smartlab.ws www.smartlab.ws
 
 ---
 

@@ -5,7 +5,7 @@ This is the project repository for the "Tidy Data Project" as part of the Gettin
 The course follows principals discussed in the paper ["Tidy Data" by Hadley Wickman](https://vita.had.co.nz/papers/tidy-data.pdf).
 
 ---
-# Intro
+## Intro
 
 The purpose of the "Tidy Data Project" is to demonstrate one's ability to collect, work with, and clean a data set. More specifically, we retreive sensor data and process it for so that it can be used for later analysis.
 
